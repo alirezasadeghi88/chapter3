@@ -15,8 +15,8 @@ public class ThreeQuiz {
 		
 	}	
 	if (numbre1 < numbre3) {
-		int temp = number1;
-		number1 = number3;
+		int temp = number2;
+		number2 = number3;
 		temp = number3;
 	
 	}
@@ -32,15 +32,15 @@ public class ThreeQuiz {
 	if (number1 + number3 == answer)
 		System.out.println("You are correct!");
 	
-    else {
+    else if {
 	    System.out.println("Your answer is wrong. ");
-		System.out.println(number1 + " + " + number2 
-			"should be" + (number1 + number2 ));
+		System.out.println(number1 + " + " + number2 +
+			"should be" + (number1 + number2));
 	}	
- 	 else {
+ 	 else if {
 	    System.out.println("Your answer is wrong. ");
-		System.out.println(number1 + " + " + number3 
-		"should be" + (number1 + number3 ));
+		System.out.println(number2 + " + " + number3 +
+		"should be" + (number2+ number3));
 	}	
 	}
 }
